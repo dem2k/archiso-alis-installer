@@ -61,7 +61,8 @@ After installation, reboot into your new Arch system. 🚀
 
 ## 📄 License
 
-This is free and unencumbered software released into the public domain under [The Unlicense](https://unlicense.org/).
+This project is licensed under the **GNU General Public License v3.0**.
+See the [LICENSE](./LICENSE) file for details.
 
 ---
 
