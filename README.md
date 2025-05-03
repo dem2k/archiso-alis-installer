@@ -13,8 +13,6 @@ git clone https://github.com/dem2k/archiso-alis-installer.git
 cd archiso-alis-installer
 ```
 
-Alternatively, you can download the ZIP and extract it.
-
 You also need `archiso` package.
 
 ``` bash
