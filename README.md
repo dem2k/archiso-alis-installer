@@ -15,6 +15,12 @@ cd archiso-alis-installer
 
 Alternatively, you can download the ZIP and extract it.
 
+You also need `archiso` package.
+
+``` bash
+sudo pacman -S --needed archiso
+```
+
 ### 2. Customize
 
 Edit the contents of the `src/` directory to your needs.
@@ -56,7 +62,6 @@ After installation, reboot into your new Arch system. 🚀
 ## 🧩 Requirements
 
 - Arch Linux (or an Arch-based distro)
-- `archiso` package installed (`sudo pacman -S archiso`)
 - Root access for ISO building
 
 ## 📄 License
