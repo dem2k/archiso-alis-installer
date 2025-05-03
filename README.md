@@ -2,6 +2,8 @@
 
 This project helps you create your own customized Arch Linux ISO with preconfigured files and scripts.
 
+> 💡 I used [alis](https://picodotdev.github.io/alis/) as the basis for automated Arch installation in this project.
+
 ## How to Build Your Custom Arch ISO
 
 ### 1. Clone or download this repository.
