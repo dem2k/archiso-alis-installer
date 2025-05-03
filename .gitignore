@@ -1,0 +1,5 @@
+/tmp/
+**/*.iso
+/out/
+/archiso/
+archiso-version.txt

@@ -1,0 +1,12 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = make lf preview executable
+When = PostTransaction
+Depends = sh
+Exec = /bin/sh -c "chmod +x /root/.config/lf/{cleaner,previewer}"

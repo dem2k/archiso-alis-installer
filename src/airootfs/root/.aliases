@@ -1,0 +1,19 @@
+#
+# meine aliase. ne, is klar!
+#
+alias ls='command ls --color=auto'
+alias l='command ls -lhFv --color=auto --group-directories-first'
+alias ll='command ls -lhFva --color=auto --group-directories-first'
+alias grep='command grep --color=auto'
+alias more='/usr/bin/bat'
+alias cd..='cd ..'
+alias rd='rmdir'
+alias md='mkdir -p'
+
+alias duh='du -sch * | sort -h'
+alias cls='clear'
+
+lf () {
+    cd "$(command lf -print-last-dir "$@")"
+}
+

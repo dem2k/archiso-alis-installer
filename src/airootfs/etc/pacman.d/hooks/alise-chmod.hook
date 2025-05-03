@@ -1,0 +1,12 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = make alis executable
+When = PostTransaction
+Depends = sh
+Exec = /bin/sh -c "chmod +x /root/*.sh /root/alis-files/etc/skel/.config/lf/{previewer,cleaner}"
