@@ -19,4 +19,3 @@ cp -r ./src/* archiso/
 ## "modifiziere srch iso..."
 mv ./archiso/airootfs/usr/local/bin/Installation_guide ./archiso/airootfs/usr/local/bin/installation-guide
 
-set +x

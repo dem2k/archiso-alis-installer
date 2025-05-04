@@ -400,9 +400,9 @@ function ask_passwords() {
         if [ "$PASSWORD" == "ask" ]; then
             local PASSWORD_TYPED="false"
             while [ "$PASSWORD_TYPED" != "true" ]; do
-                read -r -sp "Type User ($USER) password: " PASSWORD
+                read -r -sp "Type User ($USER) Password: " PASSWORD
                 echo ""
-                read -r -sp "Retype User ($USER) password: " PASSWORD_RETYPE
+                read -r -sp "Retype User ($USER) Password: " PASSWORD_RETYPE
                 echo ""
                 if [ "$PASSWORD" == "$PASSWORD_RETYPE" ]; then
                     local PASSWORD_TYPED="true"
