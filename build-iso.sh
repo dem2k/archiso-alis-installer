@@ -29,10 +29,14 @@ if [ "$CURRENT_VERSION" != "$PREVIOUS_VERSION" ]; then
     exit 1
 fi
 
-set -x
+# set -x
 rm -rf out
 rm -rf tmp
-set +x
+
+if [ ! -d "./archiso" ]; then
+    echo "FEHLER: hast du copy-archiso-releng.sh ausgeführt?"
+    exit 1
+fi
 
 mkarchiso -v -w tmp archiso
 
