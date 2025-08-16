@@ -17,5 +17,5 @@ cp -r /usr/share/archiso/configs/releng archiso
 cp -r ./src/* archiso/
 
 ## "modifiziere arch iso..."
-mv ./archiso/airootfs/usr/local/bin/Installation_guide ./archiso/airootfs/usr/local/bin/installation-guide
+mv ./archiso/airootfs/usr/local/bin/Installation_guide ./archiso/airootfs/usr/local/bin/installation-guide &> /dev/null
 
