@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+set -euo pipefail
+
 # if [[ "$USER" != "root" ]]; then
 #   echo "FEHLER: Das Skript läuft nicht als Root, Starte mit sudo." >&2
 # fi
